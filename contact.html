@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us | E-Commerce Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        #mainContainer {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 20px 0;
+            font-size: 32px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        form h2 {
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        form span {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+        }
+
+        .contact-info h3 {
+            font-size: 20px;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        E-Commerce Website
+    </header>
+
+    <!-- Main Container for Contact Content -->
+    <div id="mainContainer">
+        <h1>Contact Us</h1>
+
+        <!-- Contact Form Section -->
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We would love to hear from you</h2>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your E-mail" required>
+            <input type="text" placeholder="Subject">
+            <textarea name="message" id="message" cols="30" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <h3>Our Contact Information</h3>
+            <p>Email: support@ecommerce.com</p>
+            <p>Phone: +1-123-456-7890</p>
+            <p>Address: 123 E-Commerce St, Shop City, SC 12345</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2024 E-Commerce Website. All rights reserved.
+    </footer>
+
+</body>
+</html>
