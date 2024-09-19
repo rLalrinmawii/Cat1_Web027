@@ -4,35 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> CONTENT | E-COMMERCE WEBSITE BY EDYODA </title>
+    <title>CONTENT | E-COMMERCE WEBSITE BY EDYODA</title>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <!-- favicon -->
     <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
-
+    
+    <!-- Include the CSS file -->
     <link rel="stylesheet" href="css/content.css">
+    
+    <!-- Add some inline CSS for form styling -->
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        #mainContainer {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        form h2 {
+            margin-bottom: 20px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        form span {
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
     <div id="mainContainer">
-
-        <h1> clothing for men and women </h1>
+        <h1>Clothing for men and women</h1>
         <div id="containerClothing">
             <!-- JS rendered code -->
         </div>
 
-        <h1> accessories for men and women </h1>
+        <h1>Accessories for men and women</h1>
         <div id="containerAccessories">
             <!-- JS rendered code -->
         </div>
     </div>
+
+    <!-- Contact Form Section -->
     <form action="">
-                <span>LEAVE A MESSAGE</span>
-                <h2>We love to hear from you</h2>
-                <input type="text" placeholder="Your Name">
-                <input type="text" placeholder="E-mail">
-                <input type="text" placeholder="Subject">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <button class="normal">Submit</button>
+        <span>LEAVE A MESSAGE</span>
+        <h2>We love to hear from you</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="text" placeholder="Subject">
+        <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+        <button class="normal" type="submit">Submit</button>
+    </form>
+
+    <script src="content.js"></script>
 </body>
-<script src="content.js"></script>
 </html>
+
